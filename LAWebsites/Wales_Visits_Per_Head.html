@@ -437,9 +437,11 @@ body {
 
 
 <script>
-    var wardArray = ['Abertawe','Blaenau_Gwent','Bro_Morgannwg','Caerdydd','Caerffili','Castell_nedd_Port_Talbot','Ceredigion','Conwy','Dinas_Casnewydd','Gwynedd','Merthyr_Tudful','Pen_y_bont_ar_Ogwr','Powys','Rhondda_Cynon_Taf','Sir_Fynwy','Sir_Gaerfyrddin','Sir_Penfro','Sir_y_Ddinbych','Sir_y_Fflint','Torfaen','Wrecsam','Ynys_Mon'];
+    var wardArray = ['Abertawe','Blaenau_Gwent','Bro_Morgannwg','Caerdydd','Caerffili','Castell_nedd_Port_Talbot','Ceredigion'
+               ,'Conwy','Dinas_Casnewydd','Gwynedd','Merthyr_Tudful','Pen_y_bont_ar_Ogwr','Powys','Rhondda_Cynon_Taf'
+                     ,'Sir_Fynwy','Sir_Gaerfyrddin','Sir_Penfro','Sir_y_Ddinbych','Sir_y_Fflint','Torfaen','Wrecsam','Ynys_Mon'];
 
-    var nineyear = [1,100,100,100,100,1,100,1,100,100,100,100,100,100,100,100,100,100,100,100,100,1];
+    var nineyear = [17,8,15,11,13,0,13,14,10,18,10,9,12,10,9,8,15,15,12,11,7,15];
 
 
 
@@ -450,7 +452,7 @@ body {
     function update() {
 //        var sizeIndex = size.selectedIndex;
 //        var resultsArray = bedsArray[sizeIndex];
-        var largestvalue = 100
+        var largestvalue = 18
 //        var thisvalue = 1 
        
 //    for (var n = 0; n < wardArray.length; n++) 
@@ -464,7 +466,7 @@ body {
 
         for (var n = 0; n < wardArray.length; n++) {
             var wardname = wardArray[n];
-            var colorShade = (nineyear[n]/100);   
+            var colorShade = (nineyear[n]/18);   
             if (colorShade < 0.2){
                 colorShade = 0.2;
             }
