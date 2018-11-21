@@ -8,6 +8,7 @@ And some more text
 
 -  A bullet
 - Another bullet
+- More bullet
 
 And yet more text
 
