@@ -1,4 +1,4 @@
-# This is The Satori Lab
+# We are The Satori Lab
 
 We're a company with a mission to learn how to deliver public services in the connected age and to share what we learn.
 
