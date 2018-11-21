@@ -23,14 +23,14 @@ description: Helping people deliver excellent public services in the connected a
 
 # List of links in the navigation bar
 navbar-links:
-  Our people:
-  - Core team
-  - Ecosystem
-  - Join us
-  Our work:
-  - Projects
-  - Services
-  Hire us
+  Our people
+  - Core team: "holding"
+  - Ecosystem: "holding"
+  - Join us: "holding"
+  Our work
+  - Projects: "holding"
+  - Services: "holding"
+  Hire us: "holding"
   Get in touch: "https://thesatorilab.com/contact-us/?btn=contact-header"
 
 # Image to show in the navigation bar - image must be a square (width = height)
