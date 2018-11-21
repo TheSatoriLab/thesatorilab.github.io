@@ -23,11 +23,11 @@ description: Helping people deliver excellent public services in the connected a
 
 # List of links in the navigation bar
 navbar-links:
-  Our people
+  Our people:  "holding"
   - Core team: "holding"
   - Ecosystem: "holding"
   - Join us: "holding"
-  Our work
+  Our work:  "holding"
   - Projects: "holding"
   - Services: "holding"
   Hire us: "holding"
