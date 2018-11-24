@@ -10,7 +10,6 @@ layout: null
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  color: #404040;
   position: relative;
   background-color: {{ site.page-col }};
   {% if site.page-img %}
@@ -58,6 +57,8 @@ hr.small {
 #title {
     width: 50%;
     float: left;
+    padding-left: 5px;
+    padding-bottom: 10px;
 }
 
 #menu {
@@ -72,12 +73,6 @@ hr.small {
     flex-direction: column;
 }
 
-#title {
-    float:left;
-    padding-left: 5px;
-    padding-bottom: 10px;
-
-}
 
 
 /* --- main section --- */
