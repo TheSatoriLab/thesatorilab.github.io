@@ -23,12 +23,15 @@ description: Helping people deliver excellent public services in the connected a
 
 # List of links in the navigation bar
 navbar-links:
-  Our people: "holding"
-  Our work:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Hire us: "http://deanattali.com"
+  Our projects:
+    - Networks: "holding"
+    - Web stats:  "holding"
+    - Mapio Cymru:  "holding"
+  About us:
+    - Our people: "https://thesatorilab.com/who-we-are/"
+    - Our services: "https://thesatorilab.com/our-services/"
+    - Our blog: "https://medium.com/the-satori-lab"
+  Hire us: "https://thesatorilab.com/contact-us/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
