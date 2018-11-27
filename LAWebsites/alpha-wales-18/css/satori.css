@@ -84,6 +84,7 @@ hr.small {
 /* --- leaflet.js maps --- */
 #map {
             height: 500px;
+            max-width: 550px;
             align-self: center;
             padding: 50px;
         }
